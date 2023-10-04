@@ -64,6 +64,16 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
+
+  .collectionPanel{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 80% 10% 10%
+  }
+
+  .collectionsPage{
+    grid-template-columns: 40% 60%;
+  }
 }
  
 @layer base {
